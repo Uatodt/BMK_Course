@@ -40,8 +40,10 @@ ilkvize = float(input("Birinci arasınav notunuzu giriniz: "))
 sonvize = float(input("İkinci arasınav notunuzu giriniz: "))
 final = float(input("Anasınav notunuzu giriniz: "))
 
-ortalama = (0.3 * (ilkvize + sonvize) + 0.4 * final) // 10
-if ortalama not in notlar:
+ortalama = (0.3 * (ilkvize + sonvize) + 0.4 * final)
+ortalama_10 = ortalama // 10
+print("Ortalamanız: " + str(ortalama))
+if ortalama_10 not in notlar:
     print("Geçemediniz.")
 else:
     print(notlar[ortalama] + " aldınız!")
