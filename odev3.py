@@ -6,7 +6,7 @@ for i in numbers:
     print(i, end = " ")
 
 # 2- "numbers" listesinde hangi sayılar 3' ün katıdır?
-print("Sayılar listesinde üçe bölünen elemanlar:")
+print("\nSayılar listesinde üçe bölünen elemanlar:")
 for n in numbers:
     if n % 3 == 0:
         print(n)
